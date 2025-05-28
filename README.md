@@ -1,5 +1,5 @@
 # chm_intercomparison
-Global CHM Intercomparison and Validation Exercise (GEE)
+Global CAnopy height Model Intercomparison (CAMI) and Validation Exercise
 
 ### Keywords
 CAMI; Validation; LiDAR; GEDI; Canopy Height Model; Forest; 3D; lastools; WRI; Meta
