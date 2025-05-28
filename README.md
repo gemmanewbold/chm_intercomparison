@@ -11,10 +11,9 @@ Machine learning methods have facilitated the extrapolation of estimates of cano
 ![fig1](https://github.com/user-attachments/assets/d7304584-7e34-48ec-b953-0077f5d684e8)
 Figure 1: ALS point cloud (.laz) processing stages for a tile (290m by 290m) in Paracou, French Guiana (PARA) to generate canopy height model. (a) 3D point cloud visualised as raw z coordinate values. (b) Ground point classification (.laz) using lasground defaul settings. (c) Canopy height model generation (.tif) at 1m resolution and RH98 (Li et al., 2023) using lascanopy64, which subtracts ground height from canopy top height at the 98th return percentile.
 
-![fig2](https://github.com/user-attachments/assets/3e766857-3dcf-4398-bab4-e460052d60)
+![fig2](https://github.com/user-attachments/assets/3e766857-3dcf-4398-bab4-e460052d6074)
 Figure 2: Visual intercomparison of model predictions at original ground sampling resolutions, and GEDI RH98 return, against ALSderived CHMs. Visualised for a small sample of the plot extent at all sites, for equally scaled tiles (excluding WYTH, due to smaller total plot area)
-74)
-![fig3](https://github.com/user-attachments/assets/14598926-f0a7-451c-be33-bb99482be6e)Figure 3: ALS-derived canopy height (m) versus predicted canopy height (m), by model. Visualised per pixel, where pixel extent is 
-clipped to GEDI L2A RH98 footprint for all sites, and pixels are grouped in 1m by 1m height bins to derive pixel frequency. Line a 
-y=x represents an accurate prediction of quasi-ground truth height (ALS), and n represents total pixel count by site.b)
+
+![fig3](https://github.com/user-attachments/assets/14598926-f0a7-451c-be33-bb99482be6eb)
+Figure 3: ALS-derived canopy height (m) versus predicted canopy height (m), by model. Visualised per pixel, where pixel extent is clipped to GEDI L2A RH98 footprint for all sites, and pixels are grouped in 1m by 1m height bins to derive pixel frequency. Line at y=x represents an accurate prediction of quasi-ground truth height (ALS), and n represents total pixel count by site.
 
